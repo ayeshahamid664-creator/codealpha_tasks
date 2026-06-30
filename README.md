@@ -20,8 +20,7 @@ A responsive image gallery with an interactive lightbox view, built with HTML, C
 
 ## 🚀 Live Demo
 
-Check out the live demo: [Your GitHub Pages URL](https://your-username.github.io/repository-name)
-
+Check out the live demo: (https://github.com/ayeshahamid664-creator/codealpha_tasks.git)
 ---
 
 ## 📸 Screenshots
