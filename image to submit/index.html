@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="heading">
+    <h1>IMAGE GALLERY <img src="image/image/logo1.jpeg"></h1>
+</div>
+    <div class="full-img" id="fullImgBox">
+        <img src="image/image/image 1.jpeg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+        <span onclick="prevImg()" style="position:absolute; left:5%; top:50%; color:#fff; font-size:40px; cursor:pointer; background:rgba(0,0,0,0.5); padding:10px 20px; border-radius:50%; z-index:101; user-select:none;">❮</span>
+        <span onclick="nextImg()" style="position:absolute; right:5%; top:50%; color:#fff; font-size:40px; cursor:pointer; background:rgba(0,0,0,0.5); padding:10px 20px; border-radius:50%; z-index:101; user-select:none;">❯</span>
+    </div>
+
+    <div class="img-gallery">
+        <img src="image/image/image 1.jpeg" onclick="openFullImg(this.src)">
+        <img src="image/image/image2.jpeg" onclick="openFullImg(this.src)">
+        <img src="image/image/image3.jpeg" onclick="openFullImg(this.src)">
+        <img src="image/image/image4.jpeg" onclick="openFullImg(this.src)">
+        <img src="image/image/image5.jpeg" onclick="openFullImg(this.src)">
+        <img src="image/image/image6.jpeg" onclick="openFullImg(this.src)">
+        <img src="image/image/image10.jpeg" onclick="openFullImg(this.src)">
+        <img src="image/image/image8.jpeg" onclick="openFullImg(this.src)">
+    </div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
